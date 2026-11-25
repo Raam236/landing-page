@@ -36,9 +36,9 @@ src="https://www.facebook.com/tr?id=1099517659768108&ev=PageView&noscript=1"
 <body>
 
   <nav class="navbar navbar-expand-sm site-nav sticky-top">
-    <div class="container-fluid d-flex justify-content-between ">
+    <div class="container  justify-content-between ">
       <p class="brand">Tu animal, tu refugio</p>
-      <a class="btn btn-warning" href="#solicitar">Solicitar mi obra</a>
+      <a class="btn btn-small btn-warning" href="#solicitar">Solicitar mi obra</a>
     </div>
   </nav>
 
@@ -49,7 +49,7 @@ src="https://www.facebook.com/tr?id=1099517659768108&ev=PageView&noscript=1"
     <div class="col-md-6 mt-sm-3">
       <h1>Tu animal, tu refugio</h1>
       <p>Arte figurativo de animales pintado a mano. Obras originales y encargos únicos, para que tengas en casa tu refugio natural.</p>
-      <div>
+      <div class="btn-center">
       <a class="btn btn-warning mt-3" href="#solicitar">Quiero mi obra hecha a mano</a>
       </div>
     </div>
@@ -155,6 +155,56 @@ src="https://www.facebook.com/tr?id=1099517659768108&ev=PageView&noscript=1"
 
     </div>
   </section>
+
+  <section class="testimonios" aria-roledescription="carrusel" aria-label="Testimonios">
+    <div class="container py-5 mt-5">
+      <h2>Algunas de mis obras</h2>
+      <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators mt-5">
+    <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active" aria-label="obra 1"></button>
+    <button type="button" data-bs-target="#demo2" data-bs-slide-to="1" aria-label="obra 2"></button>
+       <button type="button" data-bs-target="#demo2" data-bs-slide-to="2" aria-label="obra 3"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="obra">
+       
+        <img class="img-obra" src="./image/chiguire.jpeg" alt="Capibara descansando">
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="obra">
+
+        <img class="img-obra" src="./image/ciervo.jpeg" alt="Ciervo en el bosque">
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="obra">
+
+        <img class="img-obra" src="./image/gorila.jpeg" alt="Retrato de gorila">
+      
+      </div>
+    </div>
+   
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+    </div>
+  </section>
+
 
   <section class="formulario" id="solicitar">
     <div class="container-fluid">
