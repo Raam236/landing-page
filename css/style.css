@@ -133,7 +133,7 @@ min-height: 40vh;}
 footer{border-top:1px solid var(--line);padding:2rem 0;text-align:center}
 
 .img-obra{
-  width: 25vw;
+  width: 25vw !important;
   height: auto;
 }
 .obra{
